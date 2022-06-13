@@ -17,26 +17,27 @@
             src="https://pbs.twimg.com/media/FVAX0EvWIAI_gWF?format=png"
             alt="sizes">
             <img srcset="
-            http://placekitten.com/320/320 320w,
-            http://placekitten.com/640/640 640w,
-            http://placekitten.com/1024/1024 1024w "
-            sizes="
-            (max-width: 320px) 320px, 
-            (max-width: 640px) 640px, 
-            (max-width: 1024px) 1024px"
+            http://placekitten.com/320/320 320w, http://placekitten.com/640/640 640w, http://placekitten.com/1024/1024 1024w "
+            sizes="(max-width: 320px) 320px, (max-width: 640px) 640px, (max-width: 1024px) 1024px"
             src="http://placekitten.com/640/640 640w"
             alt="placeholder image">
         </section>
         <section>
             <h2>Same size different resolution</h2>
             <img
-            srcset="http://placekitten.com/320/320,
-            http://placekitten.com/480/480 1.5x, 
-            http://placekitten.com/640/640 2x, 
-            http://placekitten.com/960/960 3x"
+            srcset="http://placekitten.com/320/320, http://placekitten.com/480/480 1.5x, http://placekitten.com/640/640 2x, http://placekitten.com/960/960 3x"
             alt="cat image"
             src="http://placekitten.com/640/640"
             class="avatar">
+        </section>
+        <section>
+            <h2>Art Direction</h2>
+            <picture>
+                <source srcset="images/neme1200w.png" media="(min-width:960px)">
+                <source srcset="images/neme900w.png" media="(min-width:640px)">
+                <source srcset="images/neme640w.png" media="(min-width:320px)">
+                <img src="images/neme900w.png" alt="nemesis image">
+            </picture>
         </section>
     </div>
 </body>
